@@ -1,0 +1,13 @@
+[package]
+name = "rsetjmp"
+version = "1.0.0"
+edition = "2021"
+authors = ["Adel Prokurov <adel.prokurov@gmail.com>"]
+repository = "https://github.com/playXE/rsetjmp"
+readme = "README.md"
+license = "BSD-2-Clause"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cfg-if = "1.0.0"
+naked-function = "0.1"
